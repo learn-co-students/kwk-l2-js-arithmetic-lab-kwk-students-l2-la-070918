@@ -7,3 +7,16 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
+
+ var newID = oldID + 1000000000
+  
+if (Number.isInteger(currentAge))
+    {ageIsValid = true
+    }
+  var randomNumber = Math.floor(Math.random()*21)+0
+  
+  var randomInteger= Math.round(randomNumber);
+  
+  var randomUserID = randomInteger + 1000000000
+  
+  
