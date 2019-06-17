@@ -8,6 +8,6 @@ const currentAgeIsInteger = Number.isInteger(currentAge);
 
 const spyOnNumberIsInteger = sinon.stub(Number, 'isInteger').returns(currentAgeIsInteger);
 
-const randNum = Math.random();
+// const randNum = Math.random();
 
 const spyOnMathRandom = sinon.stub(Math, 'random').returns(randNum);
